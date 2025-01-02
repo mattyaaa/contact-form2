@@ -33,7 +33,7 @@
           </div>
           <div class="form__group-content">
             <div class="form__input--text">
-              <input type="text" name="name" placeholder="テスト太郎" value="{{ old('name') }} />
+              <input type="text" name="name" placeholder="テスト太郎" value="{{ old('name') }}"/>
             </div>
             <div class="form__error">
               @error('name')
@@ -49,12 +49,12 @@
           </div>
           <div class="form__group-content">
             <div class="form__input--text">
-              <input type="email" name="email" placeholder="test@example.com" value="{{ old('email') }} />
+              <input type="email" name="email" placeholder="test@example.com" value="{{ old('email') }}"/>
             </div>
             <div class="form__error">
-              @error('name')
-              {{ $message }}
-              @enderror
+            @error('email')
+            {{ $message }}
+            @enderror
             </div>
           </div>
         </div>
@@ -65,14 +65,14 @@
           </div>
           <div class="form__group-content">
             <div class="form__input--text">
-              <input type="tel" name="tel" placeholder="09012345678" value="{{ old('name') }} />
+              <input type="tel" name="tel" placeholder="09012345678" value="{{ old('name') }}"/>
             </div>
             <div class="form__error">
-              @error('name')
-              {{ $message }}
-              @enderror
+            @error('tel')
+            {{ $message }}
+            @enderror
             </div>
-          </div>
+        </div>
         </div>
         <div class="form__group">
           <div class="form__group-title">
